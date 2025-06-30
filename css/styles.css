@@ -1,0 +1,81 @@
+header {
+    background-color: #FEFABD; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(233, 10, 177);;
+}
+header div{
+    display: flex;
+   justify-content: space-between;
+   align-content: center;
+
+
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+header img {
+    width: 150px; 
+}
+nav {
+    width:80%;
+}
+nav ul {
+   display: flex;
+   list-style: none;
+   font-size: 15;
+   font-weight: bolder;
+   justify-content: space-between;
+   align-content: center;
+
+}
+nav a {
+    text-decoration: none;
+    color:rgb(233, 10, 177);
+}
+
+#Carrito{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-bottom: 1rem;
+}
+.ImagenCarrito{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.pie{
+   display:flex;
+   align-items:first baseline;
+   justify-content: space-between;
+   padding: 10px 10%;
+   background-image: url(../imagenes/lucy14.jpg);
+   background-size: cover;
+
+}
+.pie div{
+    width: 100%;
+
+}
+.fondotransparente{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    background-color: rgb(233, 10, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FEFABD; 
+    padding: 10px;
+}
+
+footer nav a {
+    color :#FEFABD;
+}
